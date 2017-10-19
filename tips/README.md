@@ -3,14 +3,14 @@
 ### 설치 직후에 해야할 일
 
   - 어드민 추가
-
-
-    $ cmsAddAdmin name
+```
+$ cmsAddAdmin name
+```
 
   - 어드민 서버(페이지) 실행 (default = 8889 port)
-
-
-    $ cmsAdminWebServer
+```
+$ cmsAdminWebServer
+```
 
   - 이후는 어드민 페이지에서 관리 가능
 
@@ -20,15 +20,14 @@
   - Task를 생성한 뒤 Contest에 Task를 추가하는 방식
 
   - 콘테스트 실행
-
-
-    $ cmsResourceService -a
+```  
+$ cmsResourceService -a
+```
 
   - 로그를 보고 싶을 때
-
-
-    $ cmsLogService
-
+```
+$ cmsLogService
+```
 
 ### 자주 하는 실수
 
@@ -41,9 +40,9 @@
 ##### Q. `cmsResourceService` 실행했는데 웹 페이지가 안나와요.
 
   - 실행 중인 `cmsResourceService`를 끄고, 아래 커맨드를 실행한 뒤 다시 `cmsResourceService`를 켜보세요.
-
-
-    $ cmsContestWebServer
+```
+$ cmsContestWebServer
+```
 
 ##### Q. 패스워드를 바꾸고 싶어요
 
