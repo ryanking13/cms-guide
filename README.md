@@ -9,10 +9,12 @@
 
 ## Scripts
 
-  - Written in Python 3.5
+Written in Python 3.5
   - [Scripts](./scripts)
 
 ## Tips
+
+  - [Tips](./tips)
 
 ## Outer Link
 
