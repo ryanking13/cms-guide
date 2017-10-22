@@ -53,6 +53,12 @@ $ cmsContestWebServer
 
   - 테스트 케이스를 public으로 한 경우에만 점수가 유저에게 공개됩니다.
 
+##### Q. 부분문제를 다 맞추지 않은 경우 0점으로 표시되게 하고 싶어요.
+
+  - Task의 Score Type을 GroupMin으로 수정하고, Score Parameters를 아래와 같이 변경해주세요.
+  - `[[<맞을 경우 보일 점수>, <테스트 케이스 개수>]]`
+  - ex) [[100, 5]]
+
 ##### Q. 유저가 여러 파일을 제출하게 하고 싶어요
 
   - Task 설정에서 Submission Format을 고쳐주면 됩니다.
