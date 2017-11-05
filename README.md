@@ -1,6 +1,6 @@
 # Contest Management System Guide
 
-2017/2학기 '프로그래밍 연습' 수업 조교를 하면서 채점 사이트로  [CMS](https://cms-dev.github.io/)(contest management system)를 사용하면서 겪은 실수, 만든 스크립트 등을 기록해두는 레포.
+2017-2 '프로그래밍 연습' 채점 사이트로  [CMS](https://cms-dev.github.io/)(contest management system)를 운영하면서 작성한 스크립트, 사용 가이드 등을 기록해두는 레포.
 
 ## Server Environment
 
@@ -9,7 +9,7 @@
 
 ## Scripts
 
-Written in Python 3.5
+Written in Python 2.7
   - [Scripts](./scripts)
 
 ## Tips
