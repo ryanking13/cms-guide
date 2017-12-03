@@ -32,6 +32,7 @@ $ cmsContestWebServer
 
   - Task 설정에서 Submission Format을 고쳐주면 됩니다.
   - ['file_name.%l', 'file_name2.%l', ... , 'file_nameN.%l']
+  - __단, 실제로 컴파일에 사용되는 파일은 첫 번째 파일 하나 뿐입니다.__
 
 ##### Q. 한 서버에서 여러 콘테스트를 동시에 열고 싶어요.
   - https://github.com/cms-dev/cms/issues/362
