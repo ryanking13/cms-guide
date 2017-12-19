@@ -48,7 +48,7 @@ def parse_info(info):
 def main():
 
     if len(sys.argv) < 3:
-        print("[*] Usage : python3 %s <user info file> <contest_id>" % sys.argv[0])
+        print("[*] Usage : python %s <user info file> <contest_id>" % sys.argv[0])
         exit()
 
     user_info_file = sys.argv[1]
