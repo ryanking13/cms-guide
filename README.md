@@ -9,7 +9,7 @@
 
 ## Scripts
 
-Written in Python 2.7
+Written in Python 3
   - [Scripts](./scripts)
 
 ## Tips
